@@ -7,3 +7,5 @@ Liking and disliking Jeeks; And following other users. Notifications are also in
 Jeek, comments and replies could also be shown in detail.
 
 The GUI runs on a local server (APHTTP Server was used).
+
+P1 (Phase 1) contains the core of the program, with all of the features included; P2 includes the GUI using the same core coded in P1, but with reduced features.
