@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JeekJeek - Home</title>
+		<style>
+		body {
+			background-color: #33ccff;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		h1 {
+			color:white;
+		}
+		input {
+			width:50%;
+			height:20px;
+			border-radius: 3px;
+			margin:5px;
+			padding:5px;
+		}
+		#search {
+			width:100px;
+			margin:auto;
+			transition: width 0.5s;
+			margin-top: 20px;
+		}
+		#search:hover, #search:focus {
+			width:400px;
+		}
+		#logout:link {
+			display: inline-block;
+			background-color: blue;
+			color:white;
+			padding:5px;
+			text-decoration: none;
+		}
+		#logout:visited {
+			display: inline-block;
+			background-color: violet;
+			color:white;
+			padding:5px;
+			text-decoration: none;
+		}
+		#logout:hover {
+			display: inline-block;
+			background-color: lightblue;
+			color:grey;
+			padding:5px;
+			text-decoration: none;
+		}
+		#logout:active {
+			display: inline-block;
+		}
+		#name {
+			text-decoration: none;
+		}
+
+		.details {
+			display: block;
+			margin-top: 10px;
+			height:30px;
+			background-color: white;
+			border-style: solid;
+			border-width: 1px;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		}
+
+		.details:hover {
+			background-color: skyblue;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #0099ff; border-radius: 5px; margin:auto;">
+			<h2 style = "text-align: right; margin-right: 20px;"><span style="margin-right: 910px; color:white";> JeekJeek </span> <a style="margin-right:10px;"id ="name" href="./home">Nima</a>   <a id="logout" href="./login">Logout</a> </h2>
+  		</div>
+  		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #008ae6; border-radius: 5px; margin:auto;height: 95%;">
+	  		<form action="/search" method="post">
+	  			<input id="search" type="search" name="search" placeholder="Search..."/>
+	  			<button type="submit" >Search</button> <br>
+	  		</form>
+	    	<div style="background-color: white; width: 750px; margin: auto; margin-top: 30px;margin-bottom: 30px; border-radius: 5px; display: inline-block;">
+	    		<div style = "background-color: #cad0d3; width:80%;text-align: left;margin: auto; margin-top: 10px;margin-bottom: 10px; border-radius: 5px; border-color: black; border-style: solid; border-width: 2px;"><p style="max-width: 100%;padding:5px;">@nima: Hey guys! good luck hyeasd hbsfhs hudoghsd fhiusdhf jkshdjk hsjkhdfhi!!!!<br>
+	    			<form action="/details" method = "post">
+	    				<input name ="jeekID" value="HEY" style="display:none" type = "text"/>
+	    				<button class="button details" type="submit" style="margin-left: 250px;">More Details</button></p>
+	    			</form>
+	    		</div>
+	    		<div style = "background-color: #cad0d3; width:80%;text-align: left;margin: auto; margin-top: 10px;margin-bottom: 10px; border-radius: 5px; border-color: black; border-style: solid; border-width: 2px;"><p style="max-width: 100%;padding:5px;">@nima: Hey guys! good luck hyeasd hbsfhs hudoghsd fhiusdhf jkshdjk hsjkhdfhi!!!!<br><button class="button details" type="button" style="margin-left: 250px;">More Details</button></p>
+	    		</div>
+	    	</div>
+	    </div>
+	</body>
+</html>

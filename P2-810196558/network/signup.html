@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to JeekJeek!</title>
+		<style>
+		body {
+			background-color: #33ccff;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		h1, p {
+			color:white;
+		}
+		input {
+			width:50%;
+			height:20px;
+			border-radius: 3px;
+			margin:5px;
+			padding:5px;
+		}
+		#su {
+			background-color: white;
+			transition-duration: 0.4s;
+			cursor:pointer;
+		}
+
+		#su:hover {
+			background-color: skyblue;
+		}
+		</style>
+	</head>
+	<body>
+		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #0099ff; border-radius: 5px; margin:auto;">
+			<h2 style = "text-align: right; margin-right: 20px;"><span style="margin-right: 1000px; color:white";> JeekJeek </span> <a style="margin-right:10px;"id ="name" href="./login">Login</a> </h2>
+  		</div>
+  		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #008ae6; border-radius: 5px; margin:auto;height: 95%;">
+	    	<div style="background-color: #4462ff; max-width: 300px; margin: auto; border-radius: 5px;">
+	    		<form action="/signup" method="post">
+	    			<p style="padding:5px">Welcome to JeekJeek! <br> Signing up is free (and always will be!). <br> </p>
+	    			<input name="username" type="text" placeholder="Username" /> <br>
+	    			<input type="text" name="displayname" placeholder="Display Name"/> <br>
+	    			<input name="password" type="password" placeholder="Password"/> <br>
+	    			<button id="su" type="submit" style="display:block; width: 80%; padding: 7px; margin: auto; margin-top: 10px; border-radius: 3px;border-style: solid;border-width: 0px;"> Sign Up! :) </button>
+	    		</form>
+	    		<p style="padding: 5px;">Already signed up?! <a href="./login">Log In </a> </p>
+	    	</div>
+	    </div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+</a>   <a id="logout" href="./login">Logout</a> </h2>
+  		</div>
+  		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #008ae6; border-radius: 5px; margin:auto;height: 95%;">
+	  		<form action="/search" method="post">
+	  			<input id="search" type="search" name="search" placeholder="Search..."/>
+	  			<button type="submit" >Search</button> <br>
+	  		</form>
+	    	<div style="background-color: white; width: 750px; margin: auto; margin-top: 30px;margin-bottom: 30px; border-radius: 5px; display: inline-block;">
+	    		<div style = "background-color: #cad0d3; width:80%;text-align: left;margin: auto; margin-top: 10px;margin-bottom: 10px; border-radius: 5px; border-color: black; border-style: solid; border-width: 2px;"><p style="max-width: 100%;padding:5px;">

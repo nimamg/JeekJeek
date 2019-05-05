@@ -1,0 +1,8 @@
+"></button>
+	    				<button id="rejeek"type="submit" style="margin-left: 250px;" formaction="/rejeek">REJEEK</button>
+	    			</form>
+	    		</div>
+	    	</div>
+	    </div>
+	</body>
+</html>

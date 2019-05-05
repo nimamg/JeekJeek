@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JeekJeek - Login</title>
+		<style>
+		body {
+			background-color: #33ccff;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		h1, p {
+			color:white;
+		}
+		input {
+			width:50%;
+`			border-radius: 3px;
+			margin:5px;
+			padding:5px;
+
+		}
+		#login {
+			background-color: white;
+			transition-duration: 0.4s;
+			cursor:pointer;
+		}
+
+		#login:hover {
+			background-color: skyblue;
+		}
+		</style>
+	</head>
+	<body>
+    	<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #0099ff; border-radius: 5px; margin:auto;">
+			<h2 style = "text-align: right; margin-right: 20px;"><span style="margin-right: 1000px; color:white";> JeekJeek </span> <a style="margin-right:10px;"id ="name" href="./signup">Signup</a> </h2>
+  		</div>
+  		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #008ae6; border-radius: 5px; margin:auto;height: 95%;">
+	    	<div style="background-color: #4462ff; max-width: 300px; margin: auto; border-radius: 5px;">
+	    		<form action="/login" method="post">
+	    			<p style="padding:5px"> Enter your username and password to login. <br> </p>
+	    			<input name="username" type="text" placeholder="Username" /> <br>
+	    			<input name="password" type="password" placeholder="Password"/> <br>
+	    			<button id="login" type="submit" style="display:block; width: 80%; padding: 7px; margin: auto; margin-top: 10px; border-radius: 3px;border-style: solid;border-width: 0px;"> Login </button>
+	    		</form>
+	    		<p style="padding: 5px;">Haven't signed up yet?! <a href="./signup">Sign up!</a> </p>
+	    	</div>
+	    </div>
+	</body>
+</html>

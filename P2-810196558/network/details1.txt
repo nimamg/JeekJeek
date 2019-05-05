@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JeekJeek - Jeek Details</title>
+		<style>
+		body {
+			background-color: #33ccff;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		h1 {
+			color:white;
+		}
+		input {
+			width:50%;
+			height:20px;
+			border-radius: 3px;
+			margin:5px;
+			padding:5px;
+		}
+		#search {
+			width:100px;
+			margin:auto;
+			transition: width 0.5s;
+			margin-top: 20px;
+		}
+		#search:hover, #search:focus {
+			width:400px;
+		}
+		#logout:link {
+			display: inline-block;
+			background-color: blue;
+			color:white;
+			padding:5px;
+			text-decoration: none;
+			transition-duration: 0.4s;
+
+		}
+		#logout:visited {
+			display: inline-block;
+			background-color: blue;
+			color:white;
+			padding:5px;
+			text-decoration: none;
+		}
+		#logout:hover {
+			display: inline-block;
+			color:red;
+			padding:5px;
+			text-decoration: none;
+		}
+		#logout:active {
+			display: inline-block;
+		}
+		#name {
+			text-decoration: none;
+		}
+
+		.like {
+			display: inline-block;
+			margin-top: 10px;
+			height:33px;
+			cursor: pointer;
+		}
+
+		#rejeek {
+			display: inline-block;
+			padding:5px;
+			border-radius: 4px;
+			border-style: solid;
+			background-color: white;
+			border-color:grey;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+
+		#rejeek:hover {
+			background-color: skyblue;
+			border-color: white;
+		}
+		</style>
+	</head>
+	<body>
+		<div style="border-style: solid; border-width: 1px; border-color: lightblue; background-color: #0099ff; border-radius: 5px; margin:auto;">
+			<h2 style = "text-align: right; margin-right: 20px;"><span style="margin-right: 910px; color:white";> JeekJeek </span> <a style="margin-right:10px;"id ="name" href="./home">

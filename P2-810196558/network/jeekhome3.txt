@@ -1,0 +1,4 @@
+" style="display:none" type = "text"/>
+	    				<button class="button details" type="submit" style="margin-left: 250px;">More Details</button></p>
+	    			</form>
+	    		</div>
