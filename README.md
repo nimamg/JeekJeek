@@ -1,4 +1,4 @@
-# UTAP-S97-CA7
+# JeekJeek
 Tried to replicate Twitter in simple manners with a simple HTML GUI (JeekJeek)
 
 A social network (JeekJeek) was designed, capable of signing up new users; Tweeting (Jeeking) text, hashtags, and mentions; Searching 
